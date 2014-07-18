@@ -8,6 +8,6 @@ Author URI: http://artprima.eu/
 Version: 1.0
 */
 
-if (file_exists(__DIR__ . '/../plugins-dev/plugins.php')) {
-    require_once __DIR__ . '/../plugins-dev/plugins.php';
+if (file_exists(__DIR__ . '/../../plugins-dev/plugins.php')) {
+    require_once __DIR__ . '/../../plugins-dev/plugins.php';
 }
