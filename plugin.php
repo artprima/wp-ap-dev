@@ -11,6 +11,7 @@ Version: 1.1
 require_once 'ActivationHooks.class.php';
 
 if (file_exists(__DIR__ . '/../../plugins-dev/plugins.php')) {
+    ActivationHooks::setup();
     require_once __DIR__ . '/../../plugins-dev/plugins.php';
 }
 
